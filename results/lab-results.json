@@ -1,0 +1,293 @@
+{
+  "comparison": [
+    {
+      "config": {
+        "architecture": "small_cnn",
+        "learning_rate": 0.05,
+        "weight_decay": 0.0005,
+        "epochs": 10,
+        "batch_size": 128,
+        "seed": 0,
+        "train_size": 20000,
+        "validation_size": 5000,
+        "crop_padding": 4,
+        "flip": true
+      },
+      "validation_accuracy": 0.715399980545044,
+      "test_accuracy": 0.7059999704360962,
+      "train_seconds": 8.548822385004314,
+      "parameters": 94762,
+      "latency_ms_per_image": 0.014424594536421864
+    },
+    {
+      "config": {
+        "architecture": "resnet18_scratch",
+        "learning_rate": 0.05,
+        "weight_decay": 0.0005,
+        "epochs": 10,
+        "batch_size": 128,
+        "seed": 0,
+        "train_size": 20000,
+        "validation_size": 5000,
+        "crop_padding": 4,
+        "flip": true
+      },
+      "validation_accuracy": 0.8453999757766724,
+      "test_accuracy": 0.8364999890327454,
+      "train_seconds": 76.04588978100219,
+      "parameters": 11173962,
+      "latency_ms_per_image": 0.27234032343699255
+    },
+    {
+      "config": {
+        "architecture": "resnet18_pretrained",
+        "learning_rate": 0.02,
+        "weight_decay": 0.0005,
+        "epochs": 10,
+        "batch_size": 128,
+        "seed": 0,
+        "train_size": 20000,
+        "validation_size": 5000,
+        "crop_padding": 4,
+        "flip": true
+      },
+      "validation_accuracy": 0.9089999794960022,
+      "test_accuracy": 0.9041999578475952,
+      "train_seconds": 32.638908226996136,
+      "parameters": 11181642,
+      "latency_ms_per_image": 0.09429072969169283
+    }
+  ],
+  "search": {
+    "default": {
+      "config": {
+        "architecture": "small_cnn",
+        "learning_rate": 0.05,
+        "weight_decay": 0.0005,
+        "epochs": 5,
+        "batch_size": 128,
+        "seed": 0,
+        "train_size": 20000,
+        "validation_size": 5000,
+        "crop_padding": 4,
+        "flip": true
+      },
+      "validation_accuracy": 0.6611999869346619,
+      "test_accuracy": 0.6560999751091003,
+      "train_seconds": 3.923652324003342,
+      "parameters": 94762,
+      "latency_ms_per_image": 0.014534255467424373
+    },
+    "trials": [
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.13903509042503967,
+          "weight_decay": 0.00013576390804550246,
+          "epochs": 5,
+          "batch_size": 64,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.694599986076355
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.1284074584498194,
+          "weight_decay": 3.0129171546754845e-05,
+          "epochs": 5,
+          "batch_size": 128,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.6815999746322632
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.05368196444158187,
+          "weight_decay": 0.0012737065058433304,
+          "epochs": 5,
+          "batch_size": 64,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.6723999977111816
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.025728921814740454,
+          "weight_decay": 0.00022129169989564264,
+          "epochs": 5,
+          "batch_size": 64,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.665399968624115
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.022222581394488235,
+          "weight_decay": 0.0032772573747612294,
+          "epochs": 5,
+          "batch_size": 64,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.6491999626159668
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.031135233612909003,
+          "weight_decay": 0.0004863580906605107,
+          "epochs": 5,
+          "batch_size": 128,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.6462000012397766
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.010050170748547934,
+          "weight_decay": 0.00020362325720713303,
+          "epochs": 5,
+          "batch_size": 64,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.6297999620437622
+      },
+      {
+        "config": {
+          "architecture": "small_cnn",
+          "learning_rate": 0.011698403927337467,
+          "weight_decay": 1.8262491742267405e-05,
+          "epochs": 5,
+          "batch_size": 128,
+          "seed": 0,
+          "train_size": 20000,
+          "validation_size": 5000,
+          "crop_padding": 4,
+          "flip": true
+        },
+        "validation_accuracy": 0.6061999797821045
+      }
+    ],
+    "best_retrained": {
+      "config": {
+        "architecture": "small_cnn",
+        "learning_rate": 0.13903509042503967,
+        "weight_decay": 0.00013576390804550246,
+        "epochs": 5,
+        "batch_size": 64,
+        "seed": 0,
+        "train_size": 20000,
+        "validation_size": 5000,
+        "crop_padding": 4,
+        "flip": true
+      },
+      "validation_accuracy": 0.694599986076355,
+      "test_accuracy": 0.6940999627113342,
+      "train_seconds": 5.364578913999139,
+      "parameters": 94762,
+      "latency_ms_per_image": 0.014501071876793503
+    }
+  },
+  "registry": [
+    {
+      "name": "small_cnn",
+      "version": 1,
+      "stage": "production"
+    },
+    {
+      "name": "resnet18_scratch",
+      "version": 1,
+      "stage": "production"
+    },
+    {
+      "name": "resnet18_pretrained",
+      "version": 1,
+      "stage": "production"
+    },
+    {
+      "name": "small_cnn_search",
+      "version": 1,
+      "stage": "production"
+    },
+    {
+      "name": "small_cnn_search",
+      "version": 2,
+      "stage": "production"
+    }
+  ],
+  "explain": {
+    "resnet18_scratch": {
+      "samples": 500,
+      "probability_drop_cam": 0.40867623686790466,
+      "probability_drop_patch": 0.2728997766971588,
+      "accuracy_after_cam": 0.5820000171661377,
+      "accuracy_after_patch": 0.7020000219345093
+    },
+    "resnet18_pretrained": {
+      "samples": 500,
+      "probability_drop_cam": 0.1510539948940277,
+      "probability_drop_patch": 0.331229567527771,
+      "accuracy_after_cam": 0.8600000143051147,
+      "accuracy_after_patch": 0.6640000343322754
+    }
+  },
+  "monitor": {
+    "model": "resnet18_pretrained",
+    "threshold": 0.10063999891281128,
+    "false_alarm_rate": 0.0,
+    "rows": [
+      {
+        "corruption": "noise_sigma_0.05",
+        "accuracy": 0.7755999565124512,
+        "detection_rate": 1.0
+      },
+      {
+        "corruption": "noise_sigma_0.15",
+        "accuracy": 0.30059999227523804,
+        "detection_rate": 1.0
+      },
+      {
+        "corruption": "blur_k5",
+        "accuracy": 0.350600004196167,
+        "detection_rate": 1.0
+      },
+      {
+        "corruption": "brightness_x1.5",
+        "accuracy": 0.8610000014305115,
+        "detection_rate": 0.96
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+[project]
+name = "cv-training-lab"
+version = "0.1.0"
+description = "Reproducible CNN training, hyperparameter search, a model registry, Grad-CAM checks and drift monitoring on CIFAR-10."
+requires-python = ">=3.12"
+dependencies = ["torch>=2.4", "torchvision>=0.19", "numpy>=1.26", "scipy>=1.11"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

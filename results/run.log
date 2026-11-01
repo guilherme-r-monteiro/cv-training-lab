@@ -1,0 +1,3 @@
+small_cnn val=0.7154 test=0.7060 t=9s
+resnet18_scratch val=0.8454 test=0.8365 t=76s
+resnet18_pretrained val=0.9090 test=0.9042 t=33s
